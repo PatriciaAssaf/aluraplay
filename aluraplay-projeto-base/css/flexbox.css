@@ -1,3 +1,5 @@
+
+/* cabeçalho */
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
@@ -10,13 +12,22 @@
     display: none;
 }
 
+/* rodapé */
 .rodape__container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
 }
 
 @media (min-width: 834px) {
+    /* cabeçalho */
     .cabecalho__pesquisar__item {
         display: block;
+    }
+
+    /* rodapé */
+    .rodape__container {
+        justify-content: space-between;
     }
 }
