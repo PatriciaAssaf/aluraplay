@@ -22,6 +22,8 @@
 
 .menu__lista {
     display: flex;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .menu__lista li {
