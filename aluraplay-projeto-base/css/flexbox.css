@@ -51,6 +51,13 @@
     gap: 15px;
 }
 
+
+/* videos */
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
+
 /* rodapé */
 .rodape__container {
     display: flex;
